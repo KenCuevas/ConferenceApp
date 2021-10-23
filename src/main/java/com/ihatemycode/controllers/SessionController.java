@@ -31,7 +31,6 @@ public class SessionController {
     public void delete(@PathVariable Long id){
         sessionRepository.deleteById(id);
     }
-
     @RequestMapping(value = "{id}", method = RequestMethod.PUT)
     public Session update(@PathVariable Long id, @RequestBody Session session){
         Session existingSession = sessionRepository.getById(id);
