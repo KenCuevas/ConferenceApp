@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
 <h1>Api para manejo de eventos</h1>
 <p> Esta es una Rest API creada para los fines de demostrar mis conocimientos adquiridos en Springboot y PostgreSQL. Los metodos de aprendizaje que utilice para documentarme fueron:</p>
@@ -17,6 +13,10 @@
 <li><a href="https://www.javatpoint.com/restful-web-services-tutorial" target="blank_" title="Pulsar aqui para ir al enlace">Tutorial de RESTful Web Services</a></li>
 </ul>
 <h3>Documentacion del servicio en Postman</h3>
-<a href="https://documenter.getpostman.com/view/17610607/UV5afvts">Click aqui para acceder a la documentacion</a>
+<a href="https://documenter.getpostman.com/view/17610607/UV5afvts">Click aqui para acceder a la documentacion</a> 
+<h3>Fue realizada una interfaz grafica tipo Crud con ReactJS para mostrar la data de esta api.</h3>
+ <a href="https://github.com/KenCuevas/ConferenceAppGraphic">Puede ser visualizado en este repositorio disponible a ediciones...</a>
+  </br>
+ <a href="">Ver la parte grafica de la aplicacion aqui...</a>
 </body>
 </html>
