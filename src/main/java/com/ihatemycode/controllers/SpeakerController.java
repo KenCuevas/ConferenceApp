@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.PUT, RequestMethod.POST, RequestMethod.DELETE})
 @RequestMapping("/api/v1/speakers")
 public class SpeakerController {
     //Anotacion para inyeccion de dependencia, es decir, obtener los metodos del SpeakerRepository.
